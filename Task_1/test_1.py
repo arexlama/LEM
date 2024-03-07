@@ -1,8 +1,10 @@
 import code_1
+komunikat = ''
 
 def test():
-    if code.radio.power:
-        return True, 'Radio turned on successfully'
-    return False, 'Radio remains turned off'
-
-test()
+    global komunikat
+    if code_1.radio.id == 42:
+        komunikat = 'Radio ID is set right'
+        return True
+    komunikat = 'Radio ID is incorrect. Think about it again.'
+    return False

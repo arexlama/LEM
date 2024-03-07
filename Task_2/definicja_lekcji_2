@@ -1,0 +1,17 @@
+code_2.py
+widoczny: TAK
+do edycji: TAK
+
+radio_2.py
+widoczny: NIE
+do edycji: NIE
+
+api_2.py
+widoczny: TAK
+do edycji: NIE
+
+
+output: NIE
+testy: TAK
+liczba testów: 1
+min_zaliczonych: 1

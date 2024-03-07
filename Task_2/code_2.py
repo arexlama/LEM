@@ -1,2 +1,1 @@
-from radio_2 import radio
-
+from radio import radio
