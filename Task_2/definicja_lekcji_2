@@ -2,11 +2,11 @@ code_2.py
 widoczny: TAK
 do edycji: TAK
 
-radio_2.py
+radio.py
 widoczny: NIE
 do edycji: NIE
 
-api_2.py
+api.py
 widoczny: TAK
 do edycji: NIE
 
