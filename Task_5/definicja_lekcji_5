@@ -1,6 +1,10 @@
-decrypt.py
+code.py
 widoczny: TAK
 do edycji: TAK
+
+api.py
+widoczny: TAK
+do edycji: NIE
 
 
 output: NIE
