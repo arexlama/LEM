@@ -1,4 +1,4 @@
-import code_1
+import code
 komunikat = ''
 
 def test():
