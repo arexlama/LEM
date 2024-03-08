@@ -1,0 +1,9 @@
+enter_password.py
+widoczny: TAK
+do edycji: TAK
+
+
+output: NIE
+testy: TAK
+liczba testów: 1
+min_zaliczonych: 1
