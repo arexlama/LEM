@@ -2,7 +2,7 @@ from decode import decode
 
 def test():
     try:
-        is_right = decode() == 'under construction'
+        is_right = decode() == 'miekki_slodki_chomik503'
         if is_right:
             print('Prawidłowe hasło:', decode())
         else:
