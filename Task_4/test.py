@@ -2,7 +2,7 @@ from decrypt import decrypt
 
 def test():
     try:
-        is_right = decrypt() == 'under construction'
+        is_right = decrypt() == 'podczas_robot_centrum'
         if is_right:
             print('Prawidłowe hasło:', decrypt())
         else:
