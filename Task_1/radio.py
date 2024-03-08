@@ -17,4 +17,4 @@ class Radio:
         self.power = bool(randint(0, 1))
         self.frequency = randint(9, 300000) / 1000
 
-radio = Radio(randint(1, 69), bool(randint(0, 1)), randint(1, 69) / 1000)
+radio = Radio(randint(1, 69), bool(randint(0, 1)), randint(9, 300000) / 1000)
