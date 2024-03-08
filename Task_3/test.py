@@ -1,5 +1,4 @@
 from decode import decode
-from random import randint
 
 def test():
     try:
@@ -14,3 +13,5 @@ def test():
     except:
         print('Wystąpił błąd')
         return False
+
+test()
