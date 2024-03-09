@@ -1,1 +1,1 @@
-from walking import *
+import data
