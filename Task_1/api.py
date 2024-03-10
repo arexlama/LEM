@@ -16,7 +16,7 @@ class Radio:
 
     def connect(self, new_radio: int) -> None:
         # connects to a radio number given (1-69). SETS OTHER RADIO DATA TO RANDOM
-        # podłącza do radia o numerze podanym (1 - 69). Ustawia dane innych radii na losowe
+        # podłącza do radia o numerze podanym (1 - 69). Ustawia dane radia na losowe
         pass
 
 radio: Radio
