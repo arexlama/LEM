@@ -12,7 +12,7 @@ def test():
         return False
 
     komunikat = 'File opened!'
-    print('''Wiadomosc o bombie~~~~~''')
+    print('Dnia 15.11 o 00:00, bomba zostanie zdetonowana pod 52.231838,21.006000')
     return True
 
 
