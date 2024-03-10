@@ -16,4 +16,4 @@ def test():
     return True
 
 
-print(test(), komunikat)
+test()

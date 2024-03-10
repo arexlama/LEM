@@ -1,0 +1,13 @@
+Z niedowierzaniem patrzysz na zakodowaną wiadomość przed tobą. „To jakiś żart..”. Mówisz cicho do siebie. Rozglądasz się po pustym pomieszczeniu, z dziwnym przeczuciem jakby ktoś cię obserwował. Przecież upewniałeś się na każdym kroku, że nikt nie wie kim jesteś. Więc jak to możliwe? Jak to możliwe, że przed tobą widnieje wiadomość zakodowana znajomym ci szyfrem? Nie był to publicznie znany szyfr. To było niemożliwe. Nie dopuszczałeś do siebie tej wiadomości, i słusznie, bo nie był to przypadek.. Teraz już nie masz wątpliwości. Tu się dzieje coś strasznego.
+
+Zadanie:
+Uzupełnij funkcję decrypt, która rozszyfruje wiadomość message, wiedząc, że zmienna cipher jest słownikiem, którego kluczami są ciągi symboli, rozdzielone spacjami, a wartościami tych kluczy są litery alfabetu. Cyfry oraz znaki specjalne nie należą do zmiennej cipher.
+
+
+Podpowiedź:
+Jeśli do zmiennej y przypiszesz wartość message.split(), a decodedMessage to pusty string, wystarczy taka pętla for:
+for i in y:
+	if i in cipher:
+		decodedMessage += cipher[i]
+	else:
+		decodedMessage += i
