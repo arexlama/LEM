@@ -4,9 +4,9 @@ komunikat = ''
 def test():
     global komunikat
     if code.radio.id == 42:
-        komunikat = 'Radio ID is set right'
+        komunikat = 'ID radia jest prawidłowe.' # 'Radio ID is set right'
         return True
-    komunikat = 'Radio ID is incorrect.'
+    komunikat = 'ID radia jest nieprawidłowe.' # 'Radio ID is incorrect.'
     return False
 
 test()
