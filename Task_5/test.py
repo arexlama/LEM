@@ -4,18 +4,18 @@ komunikat = ''
 def test():
     global komunikat
     if data.Connect != int():
-        komunikat = 'Wrong password!'
+        komunikat = 'Nieprawidłowe hasło!'
         return False
     else:
         print(data.data.keys())
 
     if data.File != 'plik_57':
-        komunikat = 'Wrong file!'
+        komunikat = 'Nieprawidłowy plik!'
         return False
     if data.Password != 'poteznekaloryfery718':
-        komunikat = 'Wrong file access key!'
+        komunikat = 'Nieprawidłowy klucz dostępu do pliku!'
         return False
-    komunikat = 'You`ve got the data'
+    komunikat = 'Dostałeś dane'
     return True
 
 test()
