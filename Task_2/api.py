@@ -1,18 +1,22 @@
 class Radio:
     def __init__(self, id: int, power: bool, frequency: float) -> None:
-        # attributes of Radio
+        # Attributes of Radio
+        # Atrybuty radia
         pass
 
     def toggle_power(self) -> None:
-        # toggles the power of current radio (on/off)
+        # Toggles the power of current radio (on/off)
+        # Przełącza zasilanie obecnego radia (włącz./wyłącz.)
         pass
 
     def mod_freq(self, amount: float) -> None:
-        # change the frequency on the current radio to an amount given (0.009-300)
+        # Change the frequency on the current radio to an amount given (0.009-300)
+        # Zmienia częstotliwość obecnego radia na podaną wartość (0.009-300)
         pass
 
     def connect(self, new_radio: int) -> None:
-        # connects to a radio number given (1-69). SETS OTHER RADIO DATA TO RANDOM
+        # Connects to a radio number given (1-69). SETS OTHER RADIO DATA TO RANDOM
+        # Podłącza się do radia o podanym numerze (1-69). USTAWIA INNE WARTOŚCI RADIA NA LOSOWE
         pass
 
 radio: Radio

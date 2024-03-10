@@ -4,12 +4,12 @@ komunikat = ''
 def test():
     global komunikat
     if not code.radio.power:
-        komunikat = 'Radio is turned off.'
+        komunikat = 'Radio jest wyłączone' # 'Radio is turned off.'
         return False
     if code.radio.frequency != 117.354:
-        komunikat = 'Radio frequency is wrong.'
+        komunikat = 'Częstotliwość radia jest błędna' # 'Radio frequency is wrong.'
         return False
-    komunikat = 'Radio is tuned right!'
+    komunikat = 'Radio jest nastawione poprawnie!' # 'Radio is tuned right!'
     return True
 
 test()
