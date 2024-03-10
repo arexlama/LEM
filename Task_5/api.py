@@ -10,8 +10,8 @@ def connect(cn: str) -> None:
     pass
 
 def file(f: int, p: str) -> None:
-    # Choose a file from the ones given after connected to a server
-    # Wybiera plik z podanych po podłączeniu do serwera
+    # Open a file from the ones given after connected to a server
+    # Otwiera plik z podanych po podłączeniu do serwera
     pass
 
 def hack():
