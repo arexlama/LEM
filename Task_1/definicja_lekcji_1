@@ -1,10 +1,10 @@
-code_1.py
+code.py
 widoczny: TAK
 do edycji: TAK
 
 radio.py
 widoczny: NIE
-do edycji: NIE
+do edycji: TAK
 
 api.py
 widoczny: TAK

@@ -8,3 +8,5 @@ def test():
         return True
     komunikat = 'Radio ID is incorrect. Think about it again.'
     return False
+
+test()

@@ -2,6 +2,10 @@ decrypt.py
 widoczny: TAK
 do edycji: TAK
 
+cipher.py
+widoczny: NIE
+do edycji: NIE
+
 
 output: NIE
 testy: TAK

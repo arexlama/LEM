@@ -12,5 +12,4 @@ def test():
     komunikat = 'Radio is tuned right!'
     return True
 
-
 test()

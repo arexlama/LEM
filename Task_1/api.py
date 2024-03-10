@@ -1,8 +1,4 @@
 class Radio:
-    def __init__(self, id: int, power: bool, frequency: float) -> None:
-        # attributes of Radio
-        pass
-
     def toggle_power(self) -> None:
         # toggles the power of current radio (on/off)
         pass
