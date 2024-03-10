@@ -12,9 +12,9 @@ def left(n=1) -> None:
     global journey
     journey += ['tl' for _ in range(n)]
 
-def walk_in() -> None:
+def walk_in(building: str) -> None:
     global journey
-    journey += ['wi']
+    journey += ['wi', building.lower()]
 
 def walk_out() -> None:
     global journey
