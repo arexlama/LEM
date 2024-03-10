@@ -1,0 +1,3 @@
+Instrukcja do przyrządzenia misji:
+
+W każdym folderze znajduje się oddzielnie zadanie. Są one posortowane po kolei (Task_1, Task_2, Task_3 itp.). Jako że na tą chwilę trochę się śpieszymy, tytuły zadań nadaliśmy plikom pdf (oczywiście trzeba nadać odpowiednią wielkość liter i dodać spacje zamiast underscore'ów). Informacje co do konkretnych zadań znajdują się w plikach definicja_lekcji_x.txt. Mamy nadzieję że wszystko jest czytelne i zrozumiałe :)
