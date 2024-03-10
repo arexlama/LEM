@@ -10,8 +10,8 @@ def left(n=1) -> None:
     # Turn left and walk straight to the next crossroad (n for repeated action)
     pass
 
-def walk_in() -> None:
-    # Walk in the nearest building
+def walk_in(building: str) -> None:
+    # Walk in the building given
     pass
 
 def walk_out() -> None:
