@@ -1,14 +1,15 @@
 from decrypt import decrypt
+komunikat = ''
 
 def test():
+    global komunikat
     try:
-        is_right = decrypt() == 'agencie s.m bomba masowego razenia zostanie zdetonowana w warszawie. szczegolowe informacje otrzymales w wyslanym pliku. wiadomosc nie zostanie powtorzona ani nagrana. oczekujemy raportu o sytuacji do godziny 23:30.'
-        if is_right:
-            print(decrypt())
-        else:
-            print(decrypt(), '\n czy to na pewno poprawna wiadomość?')
-
-        return is_right
+        if decrypt() == 'agencie s.m bomba masowego razenia zostanie zdetonowana w warszawie. szczegolowe informacje otrzymales w wyslanym pliku. wiadomosc nie zostanie powtorzona ani nagrana. oczekujemy raportu o sytuacji do godziny 23:30.':
+            komunikat = 'Correct!'
+            print('agencie s.m bomba masowego razenia zostanie zdetonowana w warszawie. szczegolowe informacje otrzymales w wyslanym pliku. wiadomosc nie zostanie powtorzona ani nagrana. oczekujemy raportu o sytuacji do godziny 23:30.')
+            return True
+        komunikat = 'Wrong!'
+        return False
     
     except:
         print('Wystąpił błąd')
