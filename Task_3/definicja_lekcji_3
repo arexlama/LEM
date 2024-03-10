@@ -7,7 +7,7 @@ widoczny: NIE
 do edycji: NIE
 
 
-output: NIE
+output: TAK
 testy: TAK
 liczba testów: 1
 min_zaliczonych: 1

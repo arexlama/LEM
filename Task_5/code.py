@@ -1,3 +1,3 @@
 import files
 
-files.open_file(57, 'poteznekaloryfery718')
+files.open_file(0, '')

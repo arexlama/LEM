@@ -1,9 +1,13 @@
-decode.py
+code.py
 widoczny: TAK
 do edycji: TAK
 
+files.py
+widoczny: NIE
+do edycji: TAK
 
-output: NIE
+
+output: TAK
 testy: TAK
 liczba testów: 1
 min_zaliczonych: 1
