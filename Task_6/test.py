@@ -29,9 +29,9 @@ def test():
     global komunikat
     for wj, j in zip(wanted_journey, journey):
         if wj != j:
-            komunikat = 'Hmm, wygląda na to, że gdzieś źle skręciłeś...'
+            komunikat = 'Hm, it seem you`ve took a wrong turn somewhere...'
             return False
-    komunikat = 'Przyszedłeś w dobre miejsce!'
+    komunikat = 'You`ve came to the right spot!'
     return True
 
 test()

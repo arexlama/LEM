@@ -1,17 +1,19 @@
-from decrypt import decrypt
+import code
+
+komunikat = ''
+password = 612
 
 def test():
-    try:
-        is_right = decrypt() == 'under construction'
-        if is_right:
-            print('Prawidłowe hasło:', decrypt())
-        else:
-            print('Nieprawidłowe hasło:', decrypt())
-
-        return is_right
-    
-    except:
-        print('Wystąpił błąd')
+    global komunikat
+    if code.data.connect < password:
+        komunikat = 'Password is bigger!'
         return False
+    if code.data.connect > password:
+        komunikat = 'Password is smaller!'
+        return False
+    komunikat = 'Password is right!'
+    for key in code.data.data:
+        print(key + ': ' + code.data.data[key])
+    return True
 
 test()

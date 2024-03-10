@@ -1,21 +1,19 @@
-import data
+import code
 komunikat = ''
 
 def test():
     global komunikat
-    if data.Connect != int():
-        komunikat = 'Nieprawidłowe hasło!'
-        return False
-    else:
-        print(data.data.keys())
 
-    if data.File != 'plik_57':
-        komunikat = 'Nieprawidłowy plik!'
+    if code.files.file != 'plik_057':
+        komunikat = 'Wrong file!'
         return False
-    if data.Password != 'poteznekaloryfery718':
-        komunikat = 'Nieprawidłowy klucz dostępu do pliku!'
+    if code.files.password != 'poteznekaloryfery718':
+        komunikat = 'Wrong password!'
         return False
-    komunikat = 'Dostałeś dane'
+
+    komunikat = 'File opened!'
+    print('Dnia 15.11 o 00:00, bomba zostanie zdetonowana pod 52.231838,21.006000')
     return True
 
-test()
+
+print(test(), komunikat)

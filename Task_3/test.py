@@ -1,12 +1,12 @@
-from decode import decode
+from decrypt import decrypt
 
 def test():
     try:
-        is_right = decode() == 'under construction'
+        is_right = decrypt() == 'under construction'
         if is_right:
-            print('Prawidłowe hasło:', decode())
+            print('Prawidłowe hasło:', decrypt())
         else:
-            print('Nieprawidłowe hasło:', decode())
+            print('Nieprawidłowe hasło:', decrypt())
 
         return is_right
     
