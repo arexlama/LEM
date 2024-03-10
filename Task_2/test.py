@@ -3,10 +3,10 @@ komunikat = ''
 
 def test():
     global komunikat
-    if not code_2.radio.power:
+    if not code.radio.power:
         komunikat = 'Radio is turned off.'
         return False
-    if code_2.radio.frequency != 117.354:
+    if code.radio.frequency != 117.354:
         komunikat = 'Radio frequency is wrong.'
         return False
     komunikat = 'Radio is tuned right!'
