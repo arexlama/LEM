@@ -13,9 +13,9 @@ def left(n=1) -> None:
     # Skręć w lewo i idź prosto do następnego skrzyżowania (n dla powtarzanej akcji)
     pass
 
-def walk_in() -> None:
-    # Walk in the nearest building
-    # Wejdź do najbliższego budynku
+def walk_in(building: str) -> None:
+    # Walk in the building given
+    # Wejdź do podanego budynku
     pass
 
 def walk_out() -> None:
