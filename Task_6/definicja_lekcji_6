@@ -6,6 +6,10 @@ api.py
 widoczny: TAK
 do edycji: NIE
 
+walking.py
+widoczny: NIE
+do edycji: TAK
+
 
 output: NIE
 testy: TAK

@@ -6,7 +6,7 @@ def test():
     if code.radio.id == 42:
         komunikat = 'Radio ID is set right'
         return True
-    komunikat = 'Radio ID is incorrect. Think about it again.'
+    komunikat = 'Radio ID is incorrect.'
     return False
 
 test()
